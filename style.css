@@ -1,0 +1,78 @@
+body {
+  font-family: "Playwrite HU", cursive;
+    background-color: lightblue;
+    color: black;
+    max-width: 1550px;
+    margin: 0 auto;
+}
+main{
+padding: 40px;
+color: rgb(40, 9, 123);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgb(85, 85, 222);
+}
+.navigation{
+    padding-top: 20px;
+}
+.nav-link {
+    text-decoration: none;
+    padding:0px 20px 0px 20px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0px;
+}
+.data{
+    color: rgb(40, 9, 123);
+}
+li{
+        font-size: 20px;
+    line-height: 24px;
+    padding: 5px;
+}
+article {
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+   padding: 40px;
+}
+.article-info{
+display: flex;
+flex-direction: column;
+width: 50%;
+}
+.article-img{
+    width: 50%;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+   background-color: rgb(85, 85, 222);
+   color: aliceblue;
+}
+
+footer a {
+    
+}
+
+footer p {
+}
+.logo{
+height: 100px;
+width: auto;
+}
